@@ -30,7 +30,7 @@ through: {
   model: ProductTag,
   unique: false
 },
-as: 'tagged_products'
+as: 'products'
 });
 
 module.exports = {
