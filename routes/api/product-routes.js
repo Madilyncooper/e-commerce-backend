@@ -10,16 +10,12 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Category and Tag data
   try {
     const productData = await Product.findAll({
-      include: [{ model: Category }, { model: Tag }],
-      attributes: {
-        include: [
-          [
-            sequelize.literal(
-              '()'
-            )
-          ]
-        ]
-      }
+      include: [{ model: Category },
+      {
+        model: Tag,
+        through: ProductTag, 
+        as: 'tags'
+      }],
     });
     res.status(200).json(productData);
   } catch (err) {
