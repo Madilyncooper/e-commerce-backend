@@ -35,8 +35,12 @@ $ cd <any folder you want this repository to go to>
 $ git clone <paste the copied link>
 ```
 
-## Walkthrough Video: 
+## Walkthrough Videos: 
 
+1. Setting up Schema and Seeding Database:
+https://watch.screencastify.com/v/x8inIOwgyjpdM0E5bJtC
+
+2. Insomnia API Route Walkthrough:
 https://watch.screencastify.com/v/dFiNr6dJ9ogRZRp6ENPV
 
  ## Screenshot:
