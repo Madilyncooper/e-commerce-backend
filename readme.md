@@ -37,7 +37,7 @@ $ git clone <paste the copied link>
 
 ## Walkthrough Video: 
 
-
+https://watch.screencastify.com/v/dFiNr6dJ9ogRZRp6ENPV
 
  ## Screenshot:
  <img width="1203" alt="Screenshot 2023-05-23 at 7 57 46 AM" src="https://github.com/Madilyncooper/e-commerce-backend/assets/124405920/3ceee81b-eb84-4da2-ad86-0034610be5a4">
